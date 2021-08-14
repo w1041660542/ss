@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
+import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
+
 @RestController
 @RequestMapping("/api")
 public class TestController {
@@ -22,6 +24,7 @@ public class TestController {
 
         @GetMapping(value = { "/login" })
         public ModelAndView toLogin() {
+            System.out.println("33");
             return new ModelAndView("login");
         }
     }
