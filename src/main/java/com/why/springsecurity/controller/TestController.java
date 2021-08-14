@@ -20,7 +20,7 @@ public class TestController {
 
         @GetMapping(value = { "/login" })
         public ModelAndView toLogin() {
-            System.out.println("33");
+            System.out.println("44");
             return new ModelAndView("login");
         }
     }
