@@ -1,0 +1,5 @@
+###
+http://localhost:8080/api/test
+
+###
+POST http://localhost:8080/login?username=why&password=why

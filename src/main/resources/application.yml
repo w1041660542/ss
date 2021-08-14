@@ -1,0 +1,6 @@
+## spring security配置
+spring:
+  security:
+    user:
+      name: why
+      password: why
